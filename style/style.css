@@ -77,15 +77,93 @@ line-height: 34px;
 display: flex;
 align-items: center;
 text-align: center;
-
 color: #060D10;
 }
 
 
 /* Promo */
+.promo {
+
+}
+.promo-title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 89px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFF;
+  text-shadow: 1px 1px 2px #060D10;
+}
+
+.promo-content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 1px 1px 2px #060D10;
+}
 
 /* Options */
+.options-title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 167%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #060D10;
+}
+.options-heading {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 167%;
+  text-transform: uppercase;
+  color: #060D10;
+}
+
+.options-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 140%;
+  color: #060D10;
+}
 
 /* Order */
+.order-title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 167%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #060D10;
+}
+
+.btn {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #060D10;
+}
 
 /* Footer */
