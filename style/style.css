@@ -47,7 +47,7 @@
 
 /* Headr */
 .headr {
-  background-color: #66D1FF;
+  background-color:#66D1FF
 }
 
 .logo {
@@ -61,13 +61,14 @@
 }
 
 .btn {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #060D10;
+
+  height: 45px;
+  left: 81px;
+  top: 34px;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .contact {
@@ -83,8 +84,9 @@ color: #060D10;
 
 /* Promo */
 .promo {
-
+  background: linear-gradient(0deg, rgba(6, 13, 16, 0.25), rgba(6, 13, 16, 0.25)), url(.jpg);
 }
+
 .promo-title {
   font-family: Oswald;
   font-style: normal;
@@ -113,14 +115,14 @@ color: #060D10;
 }
 
 /* Options */
+.options {
+  background-color: #66D1FF;
+}
+
 .options-title {
-  font-family: Oswald;
-  font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 167%;
-  text-align: center;
-  text-transform: uppercase;
   color: #060D10;
 }
 .options-heading {
@@ -143,6 +145,10 @@ color: #060D10;
 }
 
 /* Order */
+.order {
+  background: linear-gradient(208.35deg, #66D1FF 43.85%, rgba(196, 196, 196, 0) 43.86%);
+}
+
 .order-title {
   font-family: Oswald;
   font-style: normal;
@@ -167,3 +173,80 @@ color: #060D10;
 }
 
 /* Footer */
+.footer {
+  background: #060D10;
+}
+
+.footer-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 167%;
+  text-align: left;
+  color: #FFF;
+}
+
+.footer-copyright {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #FFF;
+}
+
+.icon-twitter {
+  width: 40px;
+  height: 40px;
+  top: 35px;
+  bottom: 35px;
+  border: 1px solid rgb(13, 13, 13);
+  background-color: rgb(12, 12, 12);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/whh_circletwitter.svg');
+}
+
+.icon-instagram {
+  width: 40px;
+  height: 40px;
+  top: 35px;
+  bottom: 35px;
+  border: 1px solid rgb(13, 13, 13);
+  background-color: rgb(12, 12, 12);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/entypo-social_linkedin-with-circle.svg');
+}
+
+.icon-google {
+  width: 40px;
+  height: 40px;
+  top: 35px;
+  bottom: 35px;
+  border: 1px solid rgb(13, 13, 13);
+  background-color: rgb(12, 12, 12);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/icomoon-free_google-plus3.svg');
+}
+
+.icon-facebook {
+  width: 40px;
+  height: 40px;
+  top: 35px;
+  bottom: 35px;
+  border: 1px solid rgb(13, 13, 13);
+  background-color: rgb(12, 12, 12);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/entypo-social_facebook-with-circle.svg');
+}
+
+
+
+
