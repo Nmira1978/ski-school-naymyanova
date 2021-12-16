@@ -54,31 +54,25 @@
   font-weight: 500;
   font-size: 28px;
   line-height: 34px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #060D10;
+  text-decoration: none;
 }
 
 .btn {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #060D10;
+  text-decoration: none;
 
-  height: 45px;
-  left: 81px;
-  top: 34px;
-  background: #FFFFFF;
-  border: 2px solid #FFFFFF;
-  box-sizing: border-box;
-  border-radius: 4px;
 }
 
 .contact {
-font-weight: 500;
-font-size: 28px;
-line-height: 34px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #060D10;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  color: #060D10;
+  text-decoration: none;
 }
 
 
@@ -93,11 +87,7 @@ color: #060D10;
   font-weight: 500;
   font-size: 60px;
   line-height: 89px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFF;
+  color: #FFFFFF;
   text-shadow: 1px 1px 2px #060D10;
 }
 
@@ -120,18 +110,27 @@ color: #060D10;
 }
 
 .options-title {
+  font-family: Oswald;
+  font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 167%;
+  /* or 80px */
+  text-align: center;
+  text-transform: uppercase;
+  /* ski-text */
   color: #060D10;
 }
+
 .options-heading {
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 167%;
+  /* or 53px */
   text-transform: uppercase;
+  /* ski-text */
   color: #060D10;
 }
 
@@ -141,8 +140,14 @@ color: #060D10;
   font-weight: normal;
   font-size: 26px;
   line-height: 140%;
+  /* or 36px */
+
+  /* ski-text */
   color: #060D10;
+  mix-blend-mode: normal;
+  opacity: 0.8;
 }
+
 
 /* Order */
 .order {
@@ -155,8 +160,10 @@ color: #060D10;
   font-weight: 500;
   font-size: 48px;
   line-height: 167%;
+  /* or 80px */
   text-align: center;
   text-transform: uppercase;
+  /* ski-text */
   color: #060D10;
 }
 
@@ -166,9 +173,11 @@ color: #060D10;
   font-weight: 500;
   font-size: 36px;
   line-height: 44px;
+  /* identical to box height */
   display: flex;
   align-items: center;
   text-align: center;
+  /* ski-text */
   color: #060D10;
 }
 
@@ -183,7 +192,8 @@ color: #060D10;
   font-weight: 500;
   font-size: 20px;
   line-height: 167%;
-  text-align: left;
+  /* or 33px */
+  text-align: center;
   color: #FFF;
 }
 
@@ -193,6 +203,7 @@ color: #060D10;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+  /* identical to box height */
   display: flex;
   align-items: center;
   text-align: right;
