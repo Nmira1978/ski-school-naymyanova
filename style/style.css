@@ -36,21 +36,44 @@
        url('../fonts/montserrat-v18-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-
-.promo-title {
-  font-size: 72px;
+/* Common styles */
+* {
+  box-sizing: border-box;
 }
 
-.promo-price {
-  font-size: 52px;
+
+.body {
+  color: #060d10;
+  font-family: 'Montserrat', sans-serif;
 }
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1278px;
+  border: 1px solid #f00;
+}
+
 
 /* Headr */
 .headr {
   background-color:#66D1FF
 }
 
-.logo {
+.headr-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px;
+  padding-bottom: 30px;
+}
+
+.logo-img {
   font-weight: 500;
   font-size: 28px;
   line-height: 34px;
@@ -58,21 +81,20 @@
   text-decoration: none;
 }
 
-.btn {
+.headr-btn {
+  display: inline-block;
+  padding: 8px 41px;
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
-  color: #060D10;
-  text-decoration: none;
-
+  background-color: #fff;
+  border-radius: 4px;
 }
 
-.contact {
+.phone {
   font-weight: 500;
   font-size: 28px;
   line-height: 34px;
-  color: #060D10;
-  text-decoration: none;
 }
 
 
@@ -81,17 +103,29 @@
   background: linear-gradient(0deg, rgba(6, 13, 16, 0.25), rgba(6, 13, 16, 0.25)), url(.jpg);
 }
 
+.promo-images {
+  width: 1440px;
+  height: 766px;
+  left: 0px;
+  top: 112px;
+}
+
+.promo-fade {
+  padding: 240px 0;
+}
+
+
 .promo-title {
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 89px;
-  color: #FFFFFF;
-  text-shadow: 1px 1px 2px #060D10;
+  color: #FFF;
 }
 
-.promo-content {
+
+.promo-text {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -100,9 +134,9 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFF;
-  text-shadow: 1px 1px 2px #060D10;
+  color: #FFFFFF;
 }
+
 
 /* Options */
 .options {
