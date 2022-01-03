@@ -44,6 +44,7 @@
 
 .body {
   margin: 0;
+  padding: 0;
   color: #060D10;
   font-family: 'Montserrat', sans-serif;
 }
@@ -76,6 +77,8 @@ a {
 }
 
 .logo-img {
+  width: 295.5px;
+  height: 50.76px;
   font-weight: 500;
   font-size: 28px;
   line-height: 34px;
@@ -100,8 +103,6 @@ a {
   font-weight: 500;
   font-size: 28px;
   line-height: 34px;
-  align-items: center;
-  text-align: center;
   display: flex;
 
 }
@@ -134,6 +135,7 @@ padding-bottom: 260px;
 
 .promo-title {
   margin: 0 auto;
+  padding-bottom: 30px;
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
@@ -145,8 +147,8 @@ padding-bottom: 260px;
 
 
 .promo-text {
-  margin: 0 110px;
-  margin-top: 60px;
+  margin: 0;
+  padding-top: 30px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -160,7 +162,7 @@ padding-bottom: 260px;
 /* Options */
 
 .options {
-  padding-top: 170px;
+  padding: 170px 0;
   background: #FFFFFF;
   background-color: rgba(102, 209, 255, .1);
 }
@@ -171,27 +173,37 @@ padding-bottom: 260px;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
-  line-height: 167%;
+  line-height: 80.16px;
   text-align: center;
 }
 
+.options-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 -15px;
+  padding: 0;
+}
+
+
 .options-item {
-display: flex;
-flex-direction: column;
-margin-top: 70px;
-width: 33.33%;
-padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  width: 33.33%;
+  padding: 0 15px;
 }
 
 
 .options-heading {
-  margin-bottom: 25px;
-  margin-top: 0;
+  margin: 0;
+  padding-top: 25px;
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
-  line-height: 167%;
+  line-height: 53.44px;
+  white-space: nowrap;
 
 }
 
@@ -201,7 +213,7 @@ padding: 0 15px;
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
-  line-height: 140%;
+  line-height: 36.4px;
   color: #060D10;
   opacity: 0.8;
 }
@@ -211,24 +223,24 @@ padding: 0 15px;
 .order {
   padding-top: 170px;
   padding-bottom: 180px;
-  background-image: linear-gradient(200.8deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
   text-align:center;
+  background-image: linear-gradient(200.8deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
+
 }
 
 .order-title {
+  margin-top: 60px;
+  margin-bottom: 130px;
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 167%;
-  /* or 80px */
-  text-align: center;
-  text-transform: uppercase;
-  /* ski-text */
-  color: #060D10;
+
 }
 
 .order-btn {
+  border: 3px solid black;
   display: inline-block;
   padding: 20px 107px;
   font-weight: 500;
@@ -241,13 +253,20 @@ padding: 0 15px;
 }
 
 .lead-photo {
-  margin: 0 --15px;
+  margin: 0 -15px;
   display: flex;
+  justify-content: space-between;
+  padding-top: 130px;
 }
 
 .lead-photo-img {
-width: 25%;
-padding: 15px;
+  margin-bottom: 130px;
+  margin-top: 60px;
+  width: 297px;
+  height: 297px;
+  left: 81px;
+  top: 526px;
+  padding: 15px;
 }
 
 .lead-img {
@@ -270,6 +289,7 @@ padding: 15px;
   align-items: center;
   justify-content: space-between;
   display: flex;
+
 }
 
 
@@ -305,10 +325,12 @@ padding: 15px;
   padding: 0;
   display: flex;
   list-style: none;
+
 }
 
 .social-item {
   margin-right: 20px;
+  padding: 0 10px;
 }
 
 .social-link {
