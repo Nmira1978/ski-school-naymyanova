@@ -44,7 +44,6 @@
 
 .body {
   margin: 0;
-  padding: 0;
   color: #060D10;
   font-family: 'Montserrat', sans-serif;
 }
@@ -59,6 +58,8 @@ a {
   margin: 0 auto;
   width: 1278px;
   border: 1px solid #f00;
+  border: none;
+
 }
 
 
@@ -76,16 +77,6 @@ a {
   padding-bottom: 30px;
 }
 
-.logo-img {
-  width: 295.5px;
-  height: 50.76px;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 34px;
-  color: #060D10;
-  text-decoration: none;
-}
-
 .headr-btn {
   display: inline-block;
   padding: 8px 41px;
@@ -98,16 +89,23 @@ a {
   cursor: pointer;
 }
 
+
+.logo-img {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  color: #060D10;
+  text-decoration: none;
+}
+
+
 .phone {
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
   line-height: 34px;
   display: flex;
-
 }
-
-/* main */
 
 
 /* Promo */
@@ -280,8 +278,7 @@ padding-bottom: 260px;
 .footer {
   background-color: #060D10;
   color: #FFF;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 35px 0;
 
 }
 
@@ -292,6 +289,11 @@ padding-bottom: 260px;
 
 }
 
+.footer-cosial {
+  display: flex;
+  align-items: center;
+
+}
 
  .social-networks {
   display: flex;
