@@ -36,13 +36,12 @@
        url('../fonts/montserrat-v18-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* Common styles */
+/* Common style */
 * {
   box-sizing: border-box;
 }
 
-
-.body {
+body {
   margin: 0;
   color: #060D10;
   font-family: 'Montserrat', sans-serif;
@@ -59,22 +58,19 @@ a {
   width: 1278px;
   border: 1px solid #f00;
   border: none;
-
 }
 
 
 /* Headr */
 .headr {
   background-color: skyblue
-
 }
 
 .headr-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 31px;
-  padding-bottom: 30px;
+  padding: 31px 0;
 }
 
 .headr-btn {
@@ -286,6 +282,7 @@ padding-bottom: 260px;
   align-items: center;
   justify-content: space-between;
   display: flex;
+  padding-left: 50px;
 
 }
 
@@ -324,7 +321,7 @@ padding-bottom: 260px;
 
 .social-icons {
   margin: 0;
-  padding: 0;
+  padding: 0 auto;
   display: flex;
   list-style: none;
 
